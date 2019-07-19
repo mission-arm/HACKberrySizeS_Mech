@@ -1,69 +1,71 @@
 # HACKberrySizeS_Mech
 
-¬™Œü‚¯ƒTƒCƒY‚Ì HACKberry ‚ÌA‹@\•”•i‚Ì3DƒvƒŠƒ“ƒg—pSTLƒtƒ@ƒCƒ‹‚Å‚·B
+å°å…å‘ã‘ã‚µã‚¤ã‚ºã® HACKberry ã®ã€æ©Ÿæ§‹éƒ¨å“ã®3Dãƒ—ãƒªãƒ³ãƒˆç”¨STLãƒ•ã‚¡ã‚¤ãƒ«ã§ã™ã€‚
+ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªæ§‹æˆã¯ä»¥ä¸‹ã®ã‚ˆã†ã«ãªã£ã¦ã„ã¾ã™ã€‚
 
-ƒfƒBƒŒƒNƒgƒŠ\¬‚ÍˆÈ‰º‚Ì‚æ‚¤‚É‚È‚Á‚Ä‚¢‚Ü‚·B
+This repository contains stl files of small sized HACKberry to make it with 3D printer.
+The directory structure is below.
 
 HbSizeSMech/
-„   HbSizeS_BOM.xlsx : ¬™—p HACKberry‚Ì•”•iˆê——ƒGƒNƒZƒ‹ƒtƒ@ƒCƒ‹‚Å‚·B
-„   README.md        : ‚±‚Ìà–¾‘‚Å‚·B
-„ 
-„¥„ŸUnitHand/ : è•”•ª‚Ì•”•i‚ÌƒtƒHƒ‹ƒ_‚Å‚·B
-„   „¥„ŸJointForWrist/ : èñ‚Æ‚ÌÚ‘±•”•ª‚ÌƒtƒHƒ‹ƒ_‚Å‚·B
-„   „       L_HbWristMountForChild_aiwa.stl
-„   „       L_HbWristMountForChild_HACKberry.stl
-„   „ 
-„   „¤„ŸUnit_SR-H/ : è‚ÌƒƒCƒ“‚Ì•”•i—Ş‚ÌƒtƒHƒ‹ƒ_‚Å‚·B
-„       „¥„ŸParts_SR-H/ : è‚Ì‚Ğ‚ç, è‚Ìb‚Ì•”•i‚ÌƒtƒHƒ‹ƒ_‚Å‚·B
-„       „       L_SR-H-02.stl
-„       „       L_SR-H-03.stl
-„       „       L_SR-H-04.stl
-„       „       L_SR-H-05.stl
-„       „       L_SR-H-06.stl
-„       „       L_SR-H-07.stl
-„       „       L_SR-H-08.stl
-„       „       L_SR-H-09.stl
-„       „       L_SR-H-10.stl
-„       „       L_SR-H-11.stl
-„       „       L_SR-H-12.stl
-„       „       L_SR-H-13.stl
-„       „       L_SR-H-14.stl
-„       „       L_SR-H-15.stl
-„       „ 
-„       „¥„ŸUnit_SR-I/ : l·‚µw‚Ì•”•i‚ÌƒtƒHƒ‹ƒ_‚Å‚·B
-„       „       L_SR-I-01.stl
-„       „       L_SR-I-02.stl
-„       „       L_SR-I-03.stl
-„       „       L_SR-I-04.stl
-„       „       L_SR-I-05.stl
-„       „       L_SR-I-06.stl
-„       „       L_SR-I-07.stl
-„       „ 
-„       „¥„ŸUnit_SR-O/ : Ow ( ’†w, –òw, ¬w ) ‚Ì•”•i‚ÌƒtƒHƒ‹ƒ_‚Å‚·B
-„       „       L_SR-O-01.stl
-„       „       L_SR-O-02.stl
-„       „       L_SR-O-03.stl
-„       „       L_SR-O-04.stl
-„       „       L_SR-O-05.stl
-„       „ 
-„       „¤„ŸUnit_SR-T/ : ew‚Ì•”•i‚ÌƒtƒHƒ‹ƒ_‚Å‚·B
-„               L_SR-T-01.stl
-„               L_SR-T-02.stl
-„               L_SR-T-03.stl
-„               L_SR-T-04.stl
-„               L_SR-T-05.stl
-„               L_SR-T-06.stl
-„ 
-„¥„ŸUnitSocket/ : ’Z’f’[—pƒ\ƒPƒbƒg‚Ì•”•i‚ÌƒtƒHƒ‹ƒ_‚Å‚·B( ì’† )
-„   „¤„ŸUnitSocket/ : ƒ\ƒPƒbƒg‚Ì•”•i‚ÌƒtƒHƒ‹ƒ_‚Å‚·B
-„           BatteryCaseBase.stl
-„           BatteryCaseButton.stl
-„           ForeArm.stl
-„           ForeArmCover.stl
-„           SocketMount.stl  ( ÀÛ‚Ìƒ\ƒPƒbƒg•”•ª‚ğƒ}ƒEƒ“ƒg‚·‚é•”•i )
-„ 
-„¤„ŸUnitWrist/ : èñ‚Ì•”•i‚ÌƒtƒHƒ‹ƒ_‚Å‚·B
-    „¤„ŸParts_SR-W
+â”‚  HbSizeS_BOM.xlsx : å°å…ç”¨ HACKberryã®éƒ¨å“ä¸€è¦§ã‚¨ã‚¯ã‚»ãƒ«ãƒ•ã‚¡ã‚¤ãƒ«ã§ã™ã€‚/ Parts list for small sized HACKberry
+â”‚  README.md        : ã“ã®èª¬æ˜æ›¸ã§ã™ã€‚/ This description file.
+â”‚
+â”œâ”€UnitHand/ : æ‰‹éƒ¨åˆ†ã®éƒ¨å“ã®ãƒ•ã‚©ãƒ«ãƒ€ã§ã™ã€‚/ Directory for hand unit.
+â”‚  â”œâ”€JointForWrist/ : æ‰‹é¦–ã¨ã®æ¥ç¶šéƒ¨åˆ†ã®ãƒ•ã‚©ãƒ«ãƒ€ã§ã™ã€‚/ Directory for joint parts between hand and wrist.
+â”‚  â”‚      L_HbWristMountForChild_aiwa.stl
+â”‚  â”‚      L_HbWristMountForChild_HACKberry.stl
+â”‚  â”‚
+â”‚  â””â”€Unit_SR-H/ : æ‰‹ã®ãƒ¡ã‚¤ãƒ³ã®éƒ¨å“é¡ã®ãƒ•ã‚©ãƒ«ãƒ€ã§ã™ã€‚/ Directory containing hand parts
+â”‚      â”œâ”€Parts_SR-H/ : æ‰‹ã®ã²ã‚‰, æ‰‹ã®ç”²ã®éƒ¨å“ã®ãƒ•ã‚©ãƒ«ãƒ€ã§ã™ã€‚/ Directory containing palm parts
+â”‚      â”‚      L_SR-H-02.stl
+â”‚      â”‚      L_SR-H-03.stl
+â”‚      â”‚      L_SR-H-04.stl
+â”‚      â”‚      L_SR-H-05.stl
+â”‚      â”‚      L_SR-H-06.stl
+â”‚      â”‚      L_SR-H-07.stl
+â”‚      â”‚      L_SR-H-08.stl
+â”‚      â”‚      L_SR-H-09.stl
+â”‚      â”‚      L_SR-H-10.stl
+â”‚      â”‚      L_SR-H-11.stl
+â”‚      â”‚      L_SR-H-12.stl
+â”‚      â”‚      L_SR-H-13.stl
+â”‚      â”‚      L_SR-H-14.stl
+â”‚      â”‚      L_SR-H-15.stl
+â”‚      â”‚
+â”‚      â”œâ”€Unit_SR-I/ : äººå·®ã—æŒ‡ã®éƒ¨å“ã®ãƒ•ã‚©ãƒ«ãƒ€ã§ã™ã€‚/ Directory containing index finger parts
+â”‚      â”‚      L_SR-I-01.stl
+â”‚      â”‚      L_SR-I-02.stl
+â”‚      â”‚      L_SR-I-03.stl
+â”‚      â”‚      L_SR-I-04.stl
+â”‚      â”‚      L_SR-I-05.stl
+â”‚      â”‚      L_SR-I-06.stl
+â”‚      â”‚      L_SR-I-07.stl
+â”‚      â”‚
+â”‚      â”œâ”€Unit_SR-O/ : ä¸‰æŒ‡ ( ä¸­æŒ‡, è–¬æŒ‡, å°æŒ‡ ) ã®éƒ¨å“ã®ãƒ•ã‚©ãƒ«ãƒ€ã§ã™ã€‚/ Directory containing other fingers parts ( middle, ring and little finger )
+â”‚      â”‚      L_SR-O-01.stl
+â”‚      â”‚      L_SR-O-02.stl
+â”‚      â”‚      L_SR-O-03.stl
+â”‚      â”‚      L_SR-O-04.stl
+â”‚      â”‚      L_SR-O-05.stl
+â”‚      â”‚
+â”‚      â””â”€Unit_SR-T/ : è¦ªæŒ‡ã®éƒ¨å“ã®ãƒ•ã‚©ãƒ«ãƒ€ã§ã™ã€‚/ Directory containing thumb parts
+â”‚              L_SR-T-01.stl
+â”‚              L_SR-T-02.stl
+â”‚              L_SR-T-03.stl
+â”‚              L_SR-T-04.stl
+â”‚              L_SR-T-05.stl
+â”‚              L_SR-T-06.stl
+â”‚
+â”œâ”€UnitSocket/ : çŸ­æ–­ç«¯ç”¨ã‚½ã‚±ãƒƒãƒˆã®éƒ¨å“ã®ãƒ•ã‚©ãƒ«ãƒ€ã§ã™ã€‚( è©¦ä½œä¸­ ) / Directory contaning socket parts for short stump ( in develop )
+â”‚  â””â”€UnitSocket/ : ã‚½ã‚±ãƒƒãƒˆã®éƒ¨å“ã®ãƒ•ã‚©ãƒ«ãƒ€ã§ã™ã€‚/ Directory containing socket parts
+â”‚          BatteryCaseBase.stl
+â”‚          BatteryCaseButton.stl
+â”‚          ForeArm.stl
+â”‚          ForeArmCover.stl
+â”‚          SocketMount.stl  ( å®Ÿéš›ã®ã‚½ã‚±ãƒƒãƒˆéƒ¨åˆ†ã‚’ãƒã‚¦ãƒ³ãƒˆã™ã‚‹éƒ¨å“ )
+â”‚
+â””â”€UnitWrist/ : æ‰‹é¦–ã®éƒ¨å“ã®ãƒ•ã‚©ãƒ«ãƒ€ã§ã™ã€‚/ Directory contatning wrist parts
+    â””â”€Parts_SR-W
             L_SR-W-01.stl
             L_SR-W-02.stl
             L_SR-W-03.stl
