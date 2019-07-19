@@ -6,6 +6,7 @@
 This repository contains stl files of small sized HACKberry to make it with 3D printer.
 The directory structure is below.
 
+```
 HbSizeSMech/
 │  HbSizeS_BOM.xlsx : 小児用 HACKberryの部品一覧エクセルファイルです。/ Parts list for small sized HACKberry
 │  README.md        : この説明書です。/ This description file.
@@ -74,3 +75,4 @@ HbSizeSMech/
             L_SR-W-06.stl
             L_SR-W-07.stl
             L_SR-W-08.stl
+```
